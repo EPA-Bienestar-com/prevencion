@@ -10,25 +10,6 @@ const medplum = new MedplumClient({
   onUnauthenticated: () => (window.location.href = '/'),
   baseUrl: 'https://api.medplum.epa-bienestar.com/',
 });
-
-const theme: MantineThemeOverride = {
-  primaryColor: 'orange',
-  primaryShade: 8,
-  fontSizes: {
-    xs: '0.6875rem',
-    sm: '0.875rem',
-    md: '0.875rem',
-    lg: '1rem',
-    xl: '1.125rem',
-  },
-  components: {
-    Container: {
-      defaultProps: {
-        size: 1200,
-      },
-    },
-  },
-};
 const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <StrictMode>
