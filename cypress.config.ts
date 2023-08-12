@@ -9,6 +9,6 @@ export default defineConfig({
   },
 
   e2e: {
-    baseUrl: 'https://prevencion.medplum.epa-bienestar.com',
+    baseUrl: 'http://localhost:3000',
   },
 });
