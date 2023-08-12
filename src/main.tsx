@@ -1,4 +1,3 @@
-import { MantineProvider, MantineThemeOverride } from '@mantine/core';
 import { MedplumClient } from '@medplum/core';
 import { MedplumProvider } from '@medplum/react';
 import { StrictMode } from 'react';
